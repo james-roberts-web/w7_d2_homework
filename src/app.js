@@ -1,8 +1,11 @@
 import Vue from 'vue'
 
-document.addEventListener("DOMContentLoader", () => {
+document.addEventListener("DOMContentLoaded", () => {
   new Vue({
     el: "#app",
-    
+    data:{
+      greeting: "Exchange Rates",
+    }
+
   })
 })
